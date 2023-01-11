@@ -1,0 +1,110 @@
+:root{
+    --orange: #D5966C;
+    --black: #151515;
+    --gray: #444444;
+    --white: #FFFFFF;
+    --heading-xl: font-size: 96px; font-weight: 900;
+    --heading-l: font-size:70px; font-weight:900;
+    --heading-m: font-size:60px; font-weight:900;
+    --heading-s: font-size:36px; font-weight:900;
+    --body-m: font-size:22px; font-weight:300;
+    --body-s: font-size:18px; font-weight:300;
+}
+body, html{
+    margin:0;
+}
+header{
+    background: url(./assets/desktop/image-map.png);
+    height:45vh;
+    margin:0;
+    background-position: center;
+}
+.button-container{
+    display:flex;
+    align-items: center;
+    width:38%;
+    margin-left:160px;
+}
+
+button{
+    background-color: var(--black);
+    color:white;
+    cursor: pointer;
+    height:100%;
+    padding:20px;
+    font-family:'Big Shoulders Display', Arial, Helvetica, sans-serif;
+    font-weight:800;
+    font-size:20px;
+}
+.button-icon{
+    background-color: var(--orange);
+    cursor: pointer;
+    height:100%;
+    padding:22px;
+}
+h1, h2, h3 {
+    font-family:'Big Shoulders Display', Arial, Helvetica, sans-serif;
+}
+p, h6{
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size:70px;
+    color:white;
+    margin-left:160px;
+}
+h2{
+    font-size:36px;
+    color:var(--orange);
+}
+p{
+    font-size:22px;
+    line-height:32px;
+    color:white;
+}
+h3{
+    font-size:36px;
+    color:var(--black);
+    
+}
+h6{
+    font-size:18px;
+    line-height: 28px;
+    color:var(--black);
+    width:22%;
+    font-weight:300;
+}
+main{
+    background-color: black;
+    padding:1px;
+    height:40vh;
+    display:flex;
+    justify-content: space-between;
+}
+.left-side{
+    width:50%;
+}
+.right-side{
+    width:50%;
+    margin-right:280px;
+}
+footer{
+    height:14.6vh;
+    background-color: var(--orange);
+    padding:1px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    cursor:pointer;
+}
+.icon:last-of-type{
+    margin-right:120px;
+}
+.icon-container{
+    display:flex;
+    gap:10px;
+}
